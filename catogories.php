@@ -33,7 +33,7 @@ function listCategories($conn) {
         while ($row = $result->fetch_assoc()) {
             echo "<tr>
                     <td>{$row['CategoryID']}</td>
-                    <td>{$row['CategoryName']}</td>13
+                    <td>{$row['CategoryName']}</td>
                   </tr>";
         }
         echo "</table>";
